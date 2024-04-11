@@ -1,0 +1,24 @@
+@import '../../../styles/variables.scss';
+
+.becomeAnInvestorContainer {
+	background-color: $color-1;
+	padding: 7em;
+	color: #fff;
+
+	.becomeAnInvestor {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 2em;
+
+		h1 {
+			color: #fff;
+		}
+
+		p {
+			max-width: 80ch;
+			text-align: center;
+		}
+	}
+}

@@ -1,0 +1,46 @@
+@import '../../../styles/variables.scss';
+
+.evaluateContainer {
+	background-color: $color-3;
+
+	.evaluate {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		padding: 7em 0;
+		gap: 1em;
+
+		h1 {
+			color: #000;
+			font-weight: medium;
+		}
+
+		div {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 2em;
+
+			article {
+				background-color: #fff;
+				padding: 1.5em;
+				border-radius: 20px;
+				width: 262px;
+				height: 194px;
+				overflow: hidden;
+
+				h2 {
+					color: #666;
+					font-weight: 700;
+					font-size: 1.1em;
+					text-align: center;
+				}
+				svg {
+					width: 100px;
+				}
+			}
+		}
+	}
+}

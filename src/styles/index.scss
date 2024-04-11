@@ -1,0 +1,75 @@
+@import '../styles/variables.scss';
+
+@font-face {
+	font-family: 'Space Grotesk';
+	src: url(/src/fonts/SpaceGrotesk-Light.otf);
+	font-weight: lighter;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Space Grotesk';
+	src: url(/src/fonts/SpaceGrotesk-Regular.otf);
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Space Grotesk';
+	src: url(/src/fonts/SpaceGrotesk-Medium.otf);
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Space Grotesk';
+	src: url(/src/fonts/SpaceGrotesk-Bold.otf);
+	font-weight: bold;
+	font-style: bold;
+	font-display: swap;
+}
+
+:root {
+	font-family: 'Space Grotesk';
+	font-weight: normal;
+	background-color: #fff;
+	color: #000;
+}
+
+body {
+	position: relative;
+	min-height: 100vh;
+	min-height: 100dvh;
+	overflow: hidden;
+	overflow-anchor: none;
+}
+
+html,
+body {
+	overflow-x: hidden;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.65rem;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: bold;
+	line-height: 3.75rem;
+}
+
+a,
+a:visited {
+	color: inherit;
+}
+
+h1,
+h2 {
+	color: $color-1;
+	opacity: 1;
+}

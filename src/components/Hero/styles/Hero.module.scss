@@ -1,0 +1,45 @@
+@import '../../../styles/variables.scss';
+
+.heroContainer {
+	background-color: $color-4;
+	padding-top: 80px;
+
+	.hero {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		padding: 5em 0;
+		gap: 2em;
+
+		div {
+			width: 50%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			h1 {
+				font-size: 3rem;
+				font-weight: medium;
+			}
+
+			p {
+				font-size: 1rem;
+			}
+
+			svg {
+				width: 90%;
+			}
+		}
+
+		div:first-child {
+			align-items: start;
+			gap: 2em;
+		}
+
+		div:last-child {
+			align-items: end;
+		}
+	}
+}

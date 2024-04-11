@@ -1,0 +1,45 @@
+.about {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	article {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 1em;
+		width: 100%;
+		padding: 7em 0;
+
+		div {
+			width: 50%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: space-between;
+
+			h1 {
+				font-weight: bold;
+				color: #000;
+			}
+
+			p {
+				font-size: 1.125rem;
+			}
+
+			svg {
+				width: 360px;
+			}
+		}
+
+		div:first-child {
+			align-items: start;
+			gap: 2em;
+		}
+
+		div:last-child {
+			align-items: end;
+		}
+	}
+}
