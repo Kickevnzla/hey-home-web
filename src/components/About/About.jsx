@@ -9,7 +9,7 @@ function About() {
 		<Container>
 			<section className={styles.about}>
 				<article>
-					<div>
+					<div className={styles.imageContainer}>
 						<AboutImage1 />
 					</div>
 					<div>
@@ -29,12 +29,12 @@ function About() {
 							y otros más.
 						</p>
 					</div>
-					<div>
+					<div className={styles.imageContainer}>
 						<AboutImage2 />
 					</div>
 				</article>
 				<article>
-					<div>
+					<div className={styles.imageContainer}>
 						<AboutImage3 />
 					</div>
 					<div>

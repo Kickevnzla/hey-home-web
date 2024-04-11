@@ -15,6 +15,11 @@
 		h1 {
 			color: #000;
 			font-weight: medium;
+			text-align: center;
+		}
+
+		strong {
+			color: $color-1;
 		}
 
 		div {
@@ -40,6 +45,25 @@
 				svg {
 					width: 100px;
 				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1024px) {
+	.evaluate {
+		div {
+			flex-wrap: wrap;
+		}
+	}
+}
+
+@media (max-width: 640px) {
+	.evaluateContainer {
+		.evaluate {
+			padding: 5em 0;
+			h1 {
+				font-size: 2rem;
 			}
 		}
 	}

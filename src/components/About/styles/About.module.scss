@@ -1,8 +1,10 @@
 .about {
+	padding: 7em 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	gap: 5em;
 
 	article {
 		display: flex;
@@ -10,7 +12,6 @@
 		justify-content: center;
 		gap: 1em;
 		width: 100%;
-		padding: 7em 0;
 
 		div {
 			width: 50%;
@@ -40,6 +41,47 @@
 
 		div:last-child {
 			align-items: end;
+		}
+	}
+}
+
+@media (max-width: 1024px) {
+	.about {
+		article {
+			div {
+				h1 {
+					font-size: 2rem;
+					line-height: 2.5rem;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.about {
+		gap: 5em;
+
+		article {
+			flex-direction: column;
+			align-items: start;
+			padding: 0;
+
+			div {
+				width: 100%;
+				order: 2;
+			}
+
+			.imageContainer {
+				flex-direction: row;
+				justify-content: start;
+				align-items: center;
+				order: 1;
+
+				svg {
+					width: 200px;
+				}
+			}
 		}
 	}
 }

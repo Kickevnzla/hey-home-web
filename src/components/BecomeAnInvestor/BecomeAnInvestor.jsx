@@ -7,7 +7,11 @@ function BecomeAnInvestor() {
 		<section className={styles.becomeAnInvestorContainer}>
 			<Container>
 				<div className={styles.becomeAnInvestor}>
-					<h1>Conviértete en inversionista</h1>
+					<h1>
+						Conviértete en
+						<br />
+						inversionista
+					</h1>
 					<p>
 						Empieza tu camino hacia la <strong>libertad financiera.</strong>
 					</p>

@@ -43,3 +43,18 @@
 		}
 	}
 }
+
+@media (max-width: 640px) {
+	.heroContainer {
+		width: 100%;
+		.hero {
+			flex-direction: column;
+			gap: 2em;
+			align-items: start;
+
+			div {
+				width: 100%;
+			}
+		}
+	}
+}

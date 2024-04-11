@@ -11,13 +11,14 @@ function Evaluate() {
 		<section className={styles.evaluateContainer}>
 			<Container>
 				<div className={styles.evaluate}>
-					<h1>Invertir es simple con Capitalizarme.com</h1>
+					<h1>
+						Invertir es simple con
+						<br />
+						Capitalizarme.com
+					</h1>
 					<p>
 						Sigue estos 4 pasos <strong>100% online</strong>
 					</p>
-					<Button backgroundColor='#0069cb' textColor='#fff'>
-						Evalúate hoy
-					</Button>
 					<div>
 						<article>
 							<div>
@@ -44,6 +45,9 @@ function Evaluate() {
 							<h2>4. Recibe la información</h2>
 						</article>
 					</div>
+					<Button backgroundColor='#0069cb' textColor='#fff'>
+						Evalúate hoy
+					</Button>
 				</div>
 			</Container>
 		</section>
